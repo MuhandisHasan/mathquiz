@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/quiz-style.css">
+	<title>Math Quiz</title>
+</head>
+<body>
+
+	<div class="container v-100 con p-5 main">
+		<div class="row p100">
+			
+			<div class="col-md-3"></div>
+			<div class="col-md-6 flex-column d-flex align-items-center justify-content-center p-3">
+				<div>
+					<div class="score mb-4">
+						<h4 class="text-center text-light" id="time-left">Time Left: 30</h4>
+						<h4 class="text-center text-light" id="score">Score: 0</h4>
+					</div>
+					<div class="square p-4" id="square">
+						<div class="blocks first">
+							<h4 class="popb text-center char" id="first"></h4>
+						</div>
+						<div class="blocks operator">
+							<h4 class="popb text-center char" id="operator"></h4>
+						</div>
+						<div class="blocks second">
+							<h4 class="popb text-center char" id="second"></h4>
+						</div>
+						<div class="blocks equal">
+							<h4 class="popb text-center char">=</h4>
+						</div>
+						<div class="blocks answer">
+							<h4 class="popb text-center char" id="answer"></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3"></div>
+
+
+		</div>
+	</div>
+
+	<script src="js/quiz.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>

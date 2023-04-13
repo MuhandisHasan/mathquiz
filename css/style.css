@@ -1,0 +1,92 @@
+
+.form {
+
+	width: 100%;
+	margin: auto;
+}
+
+.v-100 {
+
+	width: 100vw;
+	height: 100vh;
+}
+
+.square {
+
+	display: grid;
+	background: #EAE3D2;
+	border-radius: 20px;
+
+}
+
+.btn-start {
+
+	background: #1C3879;
+	border-color: #1C3879;
+
+}
+
+.btn-start:hover {
+
+	background: #122656;
+	border-color: #122656;
+
+}
+
+.up {
+
+	height: 11vh;
+
+}
+
+.down {
+
+	height: 20vh;
+	align-items: center;
+
+}
+
+.p100 {
+
+	height: 100%;
+	width: 100%;
+
+}
+
+.con {
+
+	background: #1C3879;
+
+}
+
+.pop {
+
+	font-family: poppins, sans-serif;
+
+}
+
+.popb {
+
+	font-family: poppins, sans-serif;
+	font-weight: 600;
+
+}
+
+.coll {
+
+	flex-direction: column;
+	border-radius: 20px;
+
+}
+
+.list-group {
+
+	width: 100%;
+
+}
+
+.list-group-item {
+
+	background: #f8f9fa;
+
+}

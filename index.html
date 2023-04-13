@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Math Quiz</title>
+</head>
+<body>
+
+	<div class="container v-100 con p-5 main">
+		<div class="row p100">
+			
+			<div class="col-md-3"></div>
+			<div class="col-md-6 d-flex align-items-center p-3">
+				<div class="square m-auto p-4" id="square">
+					<div class="m-auto d-flex align-items-center flex-column">
+						<div class="up d-flex">
+							<h4 class="popb text-center">Answer as <span style="display: inline-block;" onclick="localStorage.setItem('mode', 'cheater');">many</span> <span style="display: inline-block;" onclick="localStorage.setItem('mode', 'normal');">questions</span> as possible!</h4>
+						</div>
+						<div class="down d-flex">
+							<div class="btn btn-success popb btn-start" id="start" onclick="window.location.href = 'quiz.html'">I'm Ready</div>
+						</div>
+						<p class="popb">This website is created by @Muhandishasan_</p>
+						<a href="https://www.instagram.com/muhandishasan_/" class="text-dark text-decoration-none bi bi-instagram"></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3"></div>
+
+
+		</div>
+	</div>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
